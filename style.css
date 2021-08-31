@@ -1,0 +1,32 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.dcolor{
+    color: orangered;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+section{
+    display: flex;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
