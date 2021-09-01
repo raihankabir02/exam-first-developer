@@ -15,8 +15,9 @@ h1{
 .half-width img{
     width: 80%;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -29,4 +30,35 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.top-help{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 20px;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#programming{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:  1;
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
